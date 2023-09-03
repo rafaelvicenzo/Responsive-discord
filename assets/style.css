@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:wght@300;400;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    color: #23272A;
+    font-family: 'Luckiest Guy';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;  
+}
+
+h2 {
+    color: #23272A;
+    font-family: 'Open Sans';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+p {
+    color: #23272A;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+header h1 {
+    width: 278px;
+    color: #FFF;
+    font-family: 'Luckiest Guy';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 50px 24px 24px 24px;  
+}
+
+header p {
+    width: auto;
+    color: #FFF;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0 24px 24px 24px;
+    max-width: 757px;
+}
+header {
+    width: 100%;
+    height: 506px;
+    background-image: url(/assets/img/Layout.png);
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    text-align: center;
+}
+
+.buttons #download {
+    width: 340px;
+    height: 54px;
+    flex-shrink: 0;
+    border-radius: 28px;
+    background: #FFF;
+    color: #23272A;
+    border: none;  
+}
+
+.buttons #browser {
+    width: 340px;
+    height: 54px;
+    flex-shrink: 0;
+    border-radius: 28px;
+    background: #23272A;
+    color: #FFF;
+    border: none;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 24px;
+    gap: 27px;
+}
+
+#section-2, #section-4 {
+    background: #F6F6F6;   
+}
+
+footer {
+    display: flex;
+    background-color: #23272A;
+    padding: 44px 134px 51px 133px;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 415px) {  
+
+header {
+    background: url(/assets/img/Header\ Background.png);
+    background-size: cover;
+    
+    flex-shrink: 0;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    }
+
+header h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Luckiest Guy';
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+header p {
+    width: 757px;
+    height: 66px;
+    font-size: 18px;
+}
+.buttons #download {
+    width: 205px;
+    height: 44px;
+}
+.buttons #browser {
+    width: 281px;
+    height: 44px;  
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+}
+
+section h2 {
+    font-size: 40px;
+    width: 329px;
+    padding-bottom: 16px;
+}
+
+section p {
+    width: 348px;
+}
+
+header .buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+section {
+    display: flex;
+    padding: 0 155px 40px 154px;
+    flex-direction: row;
+    height: 448px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    flex-shrink: 0;
+}
+
+section img {
+    display: inline-flex;
+}
+
+section #text {
+    display: block;
+}
+
+#section-2 {
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+
+#section-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+    height: 664px;
+}
+#section-4 p {
+    width: 802px;
+}
+
+}
+
